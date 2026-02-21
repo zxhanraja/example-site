@@ -7,12 +7,12 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ onExplore }) => {
   return (
-    <div className="relative h-[90vh] md:h-screen w-full overflow-hidden flex items-center justify-center">
+    <div className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-[20s] ease-linear scale-110 animate-slow-zoom"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?auto=format&fit=crop&q=80&w=1600')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=70&w=1600')" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal/70 via-charcoal/40 to-charcoal/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-charcoal/60 via-charcoal/30 to-charcoal/90"></div>
       </div>
 
       <div className="relative z-10 text-center px-4 md:px-6 max-w-5xl pt-20">
