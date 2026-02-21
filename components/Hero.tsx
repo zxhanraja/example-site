@@ -7,7 +7,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ onExplore }) => {
   return (
-    <div className="relative h-screen w-full overflow-hidden flex items-center justify-center">
+    <div className="relative h-[100dvh] w-full overflow-hidden flex items-center justify-center">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-[20s] ease-linear scale-110 animate-slow-zoom"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=70&w=1600')" }}
