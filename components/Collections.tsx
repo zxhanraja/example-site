@@ -11,52 +11,52 @@ const Collections: React.FC<CollectionsProps> = ({ onCatalog }) => {
     {
       title: "Royal Italian Marble",
       description: "Hand-selected Calacatta, Statuario, and Arabescato slabs sourced directly from the historic quarries of Carrara.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(50).jpg?tr=w-1200,q-100,f-auto",
+      image: "/images/royal_italian_marble.png",
     },
     {
       title: "Spanish Crema Marfil",
       description: "Warm, earthy tones with delicate veining. Ideal for grand flooring and architectural statements.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(42).jpg?tr=w-1200,q-100,f-auto",
+      image: "/images/spanish_crema_marfil.png",
     },
     {
       title: "Architectural Porcelain",
       description: "High-performance surfaces that replicate the finest natural stones with unrivaled durability for high-traffic zones.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(43).jpg?tr=w-1200,q-100,f-auto",
+      image: "/images/architectural_porcelain.png",
     },
     {
       title: "Bespoke Mosaics",
       description: "Intricate patterns crafted with gold leaf, rare gemstones, and precision-cut marble for accent masterpieces.",
-      image: "https://ik.imagekit.io/ioktbcewp/images%20(1).jpg?tr=w-1200,q-100,f-auto",
+      image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=90&w=1600",
     },
     {
       title: "Onyx Luminosity",
       description: "Translucent slabs that transform with backlighting, creating a glowing ethereal atmosphere for luxury bars and feature walls.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(44).jpg?updatedAt=1771674438376&tr=w-1200,q-100,f-auto",
+      image: "https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?auto=format&fit=crop&q=90&w=1600",
     },
     {
       title: "Travertine Textures",
       description: "Timeless Roman aesthetics with honed and filled finishes, perfect for modern minimalist sanctuaries.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(45).jpg?updatedAt=1771674438299&tr=w-1200,q-100,f-auto",
+      image: "https://images.unsplash.com/photo-1588666309990-d68f08e4d4a6?auto=format&fit=crop&q=90&w=1600",
     },
     {
       title: "Michelangelo Statuario",
       description: "The peak of marble luxury, featuring bold grey veining on a pure white background for iconic interiors.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(46).jpg?updatedAt=1771674438281&tr=w-1200,q-100,f-auto",
+      image: "/images/michelangelo_statuario.png",
     },
     {
       title: "Royal Portoro Gold",
       description: "An intense black marble with vibrant gold veining, representing the ultimate in grand architectural elegance.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(47).jpg?updatedAt=1771674438229&tr=w-1200,q-100,f-auto",
+      image: "/images/royal_portoro_gold.png",
     },
     {
       title: "Calacatta Viola",
       description: "A dramatic marble defined by rich purple and burgundy veining, creating a sophisticated statement in any space.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(48).jpg?updatedAt=1771674438312&tr=w-1200,q-100,f-auto",
+      image: "/images/calacatta_viola.png",
     },
     {
       title: "Valde Alpi",
       description: "Distinctive green hues with deep contrast, offering a natural and serene atmosphere for high-end designs.",
-      image: "https://ik.imagekit.io/ioktbcewp/download%20(49).jpg?updatedAt=1771674438081&tr=w-1200,q-100,f-auto",
+      image: "https://images.unsplash.com/photo-1599394022918-6c276a5b09bb?auto=format&fit=crop&q=90&w=1600",
     },
   ];
 
