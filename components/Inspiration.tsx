@@ -7,7 +7,7 @@ interface InspirationProps {
 
 const Inspiration: React.FC<InspirationProps> = ({ onViewMore }) => {
   const projects = [
-    { title: "Serene Sanctuary", category: "Bathrooms", year: "2024", img: "https://plus.unsplash.com/premium_photo-1661873298245-e78a12a3d157?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwbWFyYmxlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzcxNjYzMzc1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=800" },
+    { title: "Serene Sanctuary", category: "Bathrooms", year: "2024", img: "/images/inspiration_1.jpg" },
     { title: "Imperial Lobby", category: "Commercial", year: "2023", img: "https://images.unsplash.com/photo-1700687175205-158daefd9880?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bHV4dXJ5JTIwbWFyYmxlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzcxNjYzMzc1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=800" },
     { title: "Gourmet Atelier", category: "Kitchens", year: "2024", img: "https://images.unsplash.com/photo-1643034738686-d69e7bc047e1?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwbWFyYmxlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzcxNjYzMzc1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=800" },
     { title: "Monolithic Facade", category: "Exteriors", year: "2023", img: "https://images.unsplash.com/photo-1572742482459-e04d6cfdd6f3?ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwbWFyYmxlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzcxNjYzMzc1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=800" },
