@@ -26,17 +26,17 @@ const Collections: React.FC<CollectionsProps> = ({ onCatalog }) => {
     {
       title: "Bespoke Mosaics",
       description: "Intricate patterns crafted with gold leaf, rare gemstones, and precision-cut marble for accent masterpieces.",
-      image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=90&w=1600",
+      image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=90&w=1600",
     },
     {
       title: "Onyx Luminosity",
       description: "Translucent slabs that transform with backlighting, creating a glowing ethereal atmosphere for luxury bars and feature walls.",
-      image: "https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?auto=format&fit=crop&q=90&w=1600",
+      image: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?auto=format&fit=crop&q=90&w=1600",
     },
     {
       title: "Travertine Textures",
       description: "Timeless Roman aesthetics with honed and filled finishes, perfect for modern minimalist sanctuaries.",
-      image: "https://images.unsplash.com/photo-1588666309990-d68f08e4d4a6?auto=format&fit=crop&q=90&w=1600",
+      image: "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?auto=format&fit=crop&q=90&w=1600",
     },
     {
       title: "Michelangelo Statuario",
@@ -56,7 +56,7 @@ const Collections: React.FC<CollectionsProps> = ({ onCatalog }) => {
     {
       title: "Valde Alpi",
       description: "Distinctive green hues with deep contrast, offering a natural and serene atmosphere for high-end designs.",
-      image: "https://images.unsplash.com/photo-1599394022918-6c276a5b09bb?auto=format&fit=crop&q=90&w=1600",
+      image: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?auto=format&fit=crop&q=90&w=1600",
     },
   ];
 

@@ -50,11 +50,13 @@ const DetailedContent: React.FC<DetailedContentProps> = ({ type, onBack }) => {
           { name: "Michelangelo Statuario", grade: "Grade A+", img: "/images/michelangelo_statuario.png" },
           { name: "Royal Portoro Gold", grade: "Limited", img: "/images/royal_portoro_gold.png" },
           { name: "Calacatta Viola", grade: "Grade A", img: "/images/calacatta_viola.png" },
-          { name: "Valde Alpi", grade: "Premium", img: "https://images.unsplash.com/photo-1599394022918-6c276a5b09bb?auto=format&fit=crop&q=90&w=1600" },
+          { name: "Valde Alpi", grade: "Premium", img: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?auto=format&fit=crop&q=90&w=1600" },
           { name: "Royal Italian Marble", grade: "Grade A+", img: "/images/royal_italian_marble.png" },
           { name: "Spanish Crema Marfil", grade: "Premium", img: "/images/spanish_crema_marfil.png" },
-          { name: "Onyx Luminosity", grade: "Exclusive", img: "https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?auto=format&fit=crop&q=90&w=1600" },
-          { name: "Travertine Textures", grade: "Standard", img: "https://images.unsplash.com/photo-1588666309990-d68f08e4d4a6?auto=format&fit=crop&q=90&w=1600" }
+          { name: "Architectural Porcelain", grade: "Standard", img: "/images/architectural_porcelain.png" },
+          { name: "Bespoke Mosaics", grade: "Exclusive", img: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=90&w=1600" },
+          { name: "Onyx Luminosity", grade: "Rare", img: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?auto=format&fit=crop&q=90&w=1600" },
+          { name: "Travertine Textures", grade: "Classic", img: "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?auto=format&fit=crop&q=90&w=1600" }
         ];
         return (
           <div className="fade-in">
