@@ -13,10 +13,10 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
     <footer id="footer" className="bg-charcoal text-white pt-20 pb-10 border-t border-white/5">
       <div className="max-w-[1600px] mx-auto px-6 md:px-12 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-20">
-          
+
           {/* Brand Identity */}
           <div className="lg:col-span-4 pr-0 lg:pr-12">
-            <button 
+            <button
               onClick={() => onNavigate('home')}
               className="text-2xl md:text-3xl font-serif mb-6 italic text-left group flex flex-col items-start leading-none"
             >
@@ -28,9 +28,9 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </p>
             <div className="flex space-x-5">
               {['Instagram', 'Pinterest', 'LinkedIn'].map((social) => (
-                <a 
-                  key={social} 
-                  href="#" 
+                <a
+                  key={social}
+                  href="#"
                   className="text-white/40 hover:text-regal-gold transition-colors text-[10px] uppercase tracking-widest font-bold border-b border-transparent hover:border-regal-gold pb-1"
                 >
                   {social}
@@ -38,7 +38,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               ))}
             </div>
           </div>
-          
+
           {/* Quick Navigation */}
           <div className="lg:col-span-2">
             <h4 className="text-[11px] uppercase tracking-[0.4em] font-bold text-white mb-8 border-b border-white/10 pb-4">Explore</h4>
@@ -66,32 +66,28 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <h4 className="text-[11px] uppercase tracking-[0.4em] font-bold text-white mb-4">Concierge Access</h4>
             <p className="text-white/40 text-xs mb-6 font-light">Join our list for first-access to rare quarry finds and project highlights.</p>
             <div className="flex border-b border-white/20 pb-2 mb-8">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="bg-transparent text-xs w-full focus:outline-none placeholder:text-white/20" 
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="bg-transparent text-xs w-full focus:outline-none placeholder:text-white/20"
               />
               <button className="text-regal-gold text-[10px] uppercase font-bold tracking-widest hover:text-white transition-colors">Join</button>
             </div>
             <div>
               <span className="block text-[9px] uppercase tracking-widest text-white/30 mb-2 font-bold">Direct Line</span>
-              <p className="text-lg font-serif italic text-white">+44 20 7946 0123</p>
+              <p className="text-lg font-serif italic text-white md:text-xl">98282356241 / <br className="lg:hidden" />7742212681</p>
             </div>
           </div>
         </div>
-        
+
         {/* Sub-footer */}
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-white/5 pt-8">
           <p className="text-[9px] uppercase tracking-[0.3em] text-white/20 mb-4 md:mb-0">
             © {currentYear} Amazon Marble Centre. All Rights Reserved.
           </p>
-          <div className="flex items-center space-x-6 text-[9px] uppercase tracking-[0.3em] text-white/20 font-bold">
-            <span className="w-1.5 h-1.5 bg-regal-gold rounded-full animate-pulse-soft"></span>
-            <span>London</span>
-            <span className="w-1.5 h-1.5 bg-white/20 rounded-full"></span>
-            <span>Milan</span>
-            <span className="w-1.5 h-1.5 bg-white/20 rounded-full"></span>
-            <span>Madrid</span>
+          <div className="flex flex-wrap items-center space-x-2 md:space-x-6 text-[9px] uppercase tracking-[0.3em] text-white/20 font-bold mt-4 md:mt-0">
+            <span className="w-1.5 h-1.5 bg-regal-gold rounded-full animate-pulse-soft hidden md:inline-block"></span>
+            <span className="text-center md:text-left">boropara, Bansberia, chak bansberia west bengal pin 712502</span>
           </div>
         </div>
       </div>
