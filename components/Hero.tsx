@@ -10,7 +10,7 @@ const Hero: React.FC<HeroProps> = ({ onExplore }) => {
     <div className="relative h-[100dvh] w-full overflow-hidden flex items-center justify-center">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-[20s] ease-linear scale-110 animate-slow-zoom"
-        style={{ backgroundImage: "url('/images/hero_bg.jpg')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=70&w=1600')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/60 via-charcoal/30 to-charcoal/90"></div>
       </div>
