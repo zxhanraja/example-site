@@ -26,7 +26,7 @@ const Collections: React.FC<CollectionsProps> = ({ onCatalog }) => {
     {
       title: "Bespoke Mosaics",
       description: "Intricate patterns crafted with gold leaf, rare gemstones, and precision-cut marble for accent masterpieces.",
-      image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=90&w=1600",
+      image: "/images/bespoke_mosaics.png",
     },
     {
       title: "Onyx Luminosity",
@@ -36,7 +36,7 @@ const Collections: React.FC<CollectionsProps> = ({ onCatalog }) => {
     {
       title: "Travertine Textures",
       description: "Timeless Roman aesthetics with honed and filled finishes, perfect for modern minimalist sanctuaries.",
-      image: "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?auto=format&fit=crop&q=90&w=1600",
+      image: "/images/travertine_textures.png",
     },
     {
       title: "Michelangelo Statuario",
