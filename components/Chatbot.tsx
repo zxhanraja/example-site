@@ -33,8 +33,8 @@ const Chatbot: React.FC = () => {
         setIsLoading(true);
 
         try {
-            const apiKey = (import.meta as any).env.VITE_GEMINI_API_KEY || "AIzaSyACUCnEQEmZ8B2d8K0MaKkusduy7NI2NP8";
-            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
+            const apiKey = (import.meta as any).env.VITE_GEMINI_API_KEY || "AIzaSyBkziI5lOqbPPRuryfnqxj0-PG1SCAgiy4";
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
             const systemInstruction = {
                 role: "user",
@@ -65,6 +65,8 @@ const Chatbot: React.FC = () => {
             });
 
             if (!response.ok) {
+                const errorText = await response.text();
+                console.error("Gemini API Error:", response.status, errorText);
                 throw new Error('API request failed');
             }
 
@@ -97,7 +99,7 @@ const Chatbot: React.FC = () => {
             {/* Floating Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="fixed bottom-8 right-8 z-[100] w-14 h-14 bg-charcoal text-regal-gold border border-regal-gold/30 rounded-full shadow-2xl flex items-center justify-center transition-all duration-500 hover:scale-110 active:scale-95 group"
+                className="fixed bottom-8 right-8 z-[110] w-14 h-14 bg-charcoal text-regal-gold border border-regal-gold/30 rounded-full shadow-2xl flex items-center justify-center transition-all duration-500 hover:scale-110 active:scale-95 group"
                 aria-label="Toggle Chat"
             >
                 {isOpen ? (
@@ -113,7 +115,7 @@ const Chatbot: React.FC = () => {
 
             {/* Chat Window */}
             <div
-                className={`fixed bottom-28 right-8 z-[100] w-[350px] bg-white border border-charcoal/10 rounded-sm shadow-[0_10px_40px_rgba(0,0,0,0.1)] transition-all duration-500 origin-bottom-right flex flex-col ${isOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-90 pointer-events-none'}`}
+                className={`fixed bottom-28 right-8 z-[110] w-[350px] bg-white border border-charcoal/10 rounded-sm shadow-[0_10px_40px_rgba(0,0,0,0.1)] transition-all duration-500 origin-bottom-right flex flex-col ${isOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-90 pointer-events-none'}`}
                 style={{ height: '500px', maxHeight: 'calc(100vh - 150px)' }}
             >
                 {/* Header */}
