@@ -130,8 +130,8 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, onNavigate }) => {
           <div className="mt-auto pt-10 border-t border-white/10 flex flex-col md:flex-row md:items-end justify-between relative z-10">
             <div>
               <p className="text-regal-gold text-[8px] uppercase tracking-widest mb-3 font-bold">Concierge Service</p>
-              <p className="text-white/60 text-base font-serif italic">Rajasthan & West Bengal Showrooms</p>
-              <p className="text-white/40 text-xs mt-1">98282356241 / 7742212681</p>
+              <p className="text-white/60 text-base font-serif italic">West Bengal Showroom</p>
+              <p className="text-white/40 text-xs mt-1">07004745766</p>
             </div>
             <div className="mt-8 md:mt-0 flex space-x-6">
               <a href="#" className="text-white/40 hover:text-regal-gold transition-colors text-[9px] uppercase tracking-widest font-bold">Instagram</a>
