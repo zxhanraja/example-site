@@ -99,7 +99,7 @@ const Chatbot: React.FC = () => {
             {/* Floating Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="fixed bottom-8 right-8 z-[110] w-14 h-14 bg-charcoal text-regal-gold border border-regal-gold/30 rounded-full shadow-2xl flex items-center justify-center transition-all duration-500 hover:scale-110 active:scale-95 group"
+                className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-[110] w-12 h-12 sm:w-14 sm:h-14 bg-charcoal text-regal-gold border border-regal-gold/30 rounded-full shadow-2xl flex items-center justify-center transition-all duration-500 hover:scale-110 active:scale-95 group"
                 aria-label="Toggle Chat"
             >
                 {isOpen ? (
@@ -115,8 +115,8 @@ const Chatbot: React.FC = () => {
 
             {/* Chat Window */}
             <div
-                className={`fixed bottom-28 right-8 z-[110] w-[350px] bg-white border border-charcoal/10 rounded-sm shadow-[0_10px_40px_rgba(0,0,0,0.1)] transition-all duration-500 origin-bottom-right flex flex-col ${isOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-90 pointer-events-none'}`}
-                style={{ height: '500px', maxHeight: 'calc(100vh - 150px)' }}
+                className={`fixed bottom-24 right-4 sm:bottom-28 sm:right-8 z-[110] w-[calc(100vw-2rem)] sm:w-[350px] bg-white border border-charcoal/10 rounded-sm shadow-[0_10px_40px_rgba(0,0,0,0.1)] transition-all duration-500 origin-bottom-right flex flex-col ${isOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-90 pointer-events-none'}`}
+                style={{ height: '500px', maxHeight: 'calc(100vh - 120px)' }}
             >
                 {/* Header */}
                 <div className="bg-charcoal text-white p-5 rounded-t-sm flex items-center justify-between border-b border-regal-gold/20">
@@ -163,7 +163,7 @@ const Chatbot: React.FC = () => {
                             onChange={(e) => setInput(e.target.value)}
                             onKeyDown={handleKeyDown}
                             placeholder="Ask our concierge..."
-                            className="flex-1 bg-charcoal/5 text-charcoal text-sm p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-regal-gold/50 transition-all"
+                            className="flex-1 bg-charcoal/5 text-charcoal text-base p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-regal-gold/50 transition-all"
                             disabled={isLoading}
                         />
                         <button
