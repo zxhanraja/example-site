@@ -97,7 +97,7 @@ const App: React.FC = () => {
 
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className={`fixed bottom-8 right-8 z-[100] p-4 bg-white border border-regal-gold/30 rounded-full shadow-2xl transition-all duration-500 hover:scale-110 active:scale-95 group ${showTopBtn ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
+        className={`fixed bottom-[110px] right-8 z-[100] p-4 bg-white border border-regal-gold/30 rounded-full shadow-2xl transition-all duration-500 hover:scale-110 active:scale-95 group ${showTopBtn ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
           }`}
         aria-label="Back to Top"
       >
