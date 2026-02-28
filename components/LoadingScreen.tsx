@@ -43,9 +43,9 @@ const LoadingScreen: React.FC = () => {
             <div className="relative z-10 flex flex-col items-center w-full max-w-md px-8">
                 <div className="text-center mb-12 transform transition-transform duration-1000 hover:scale-105">
                     <h1 className="text-4xl md:text-5xl font-serif text-white italic tracking-tighter shadow-sm flex flex-col items-center">
-                        <span className="font-semibold px-2">Amazon</span>
+                        <span className="font-semibold px-2">JS Tiles</span>
                         <span className="text-[10px] md:text-xs uppercase tracking-[0.5em] text-regal-gold mt-2 font-bold no-italic">
-                            Marble Centre
+                            Emporium
                         </span>
                     </h1>
                 </div>

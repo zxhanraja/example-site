@@ -44,9 +44,9 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, onNavigate }) => {
             className={`text-left text-lg md:text-2xl font-serif tracking-tighter transition-all duration-500 flex flex-col items-start leading-none group relative z-20 ${isScrolled ? 'text-charcoal' : 'text-white'
               }`}
           >
-            <span className="font-semibold italic group-hover:text-regal-gold transition-colors block md:inline">Amazon</span>
+            <span className="font-semibold italic group-hover:text-regal-gold transition-colors block md:inline">JS Tiles</span>
             <span className={`text-[6px] md:text-[8px] uppercase tracking-[0.4em] md:tracking-[0.6em] ml-0 md:ml-1 mt-1 block md:inline font-medium ${isScrolled ? 'text-regal-gold' : 'text-champagne'}`}>
-              Marble Centre
+              Emporium
             </span>
           </button>
 
