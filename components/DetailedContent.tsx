@@ -29,14 +29,14 @@ const DetailedContent: React.FC<DetailedContentProps> = ({ type, onBack }) => {
       case 'heritage':
         return (
           <div className="fade-in">
-            <h1 className="text-4xl md:text-7xl font-serif italic text-charcoal mb-12">The Amazon Dynasty</h1>
+            <h1 className="text-4xl md:text-7xl font-serif italic text-charcoal mb-12">The JS Tiles Dynasty</h1>
             <div className="space-y-12 text-charcoal/70 font-light leading-loose text-base md:text-lg max-w-4xl">
               <div className="aspect-[21/9] overflow-hidden rounded-sm bg-marble-gray mb-12">
                 <img src="https://images.unsplash.com/photo-1542332213-31f87348057f?auto=format&fit=crop&q=80&w=1600" className="w-full h-full object-cover" alt="Quarry Heritage" onLoad={(e) => (e.target as HTMLImageElement).classList.add('loaded')} />
               </div>
               <section>
                 <h2 className="text-regal-gold text-xs uppercase tracking-[0.5em] font-bold mb-6">Established 1992</h2>
-                <p>Born in the quarries of Carrara, Amazon Marble Centre was established to unite ancient geological mastery with modern architectural vision. Our foundation is built on decades of trust with heritage quarry owners.</p>
+                <p>Born in the quarries of Carrara, JS Tiles Emporium was established to unite ancient geological mastery with modern architectural vision. Our foundation is built on decades of trust with heritage quarry owners.</p>
               </section>
               <section>
                 <h2 className="text-regal-gold text-xs uppercase tracking-[0.5em] font-bold mb-6">Global Curation</h2>
@@ -174,7 +174,7 @@ const DetailedContent: React.FC<DetailedContentProps> = ({ type, onBack }) => {
               </section>
               <section>
                 <h2 className="text-regal-gold text-[10px] uppercase tracking-widest font-bold mb-4">Showroom Access</h2>
-                <p>All Amazon Marble Centre showrooms are fully wheelchair accessible with personal concierge assistance available on-site.</p>
+                <p>All JS Tiles Emporium showrooms are fully wheelchair accessible with personal concierge assistance available on-site.</p>
               </section>
             </div>
           </div>

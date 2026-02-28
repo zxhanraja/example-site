@@ -28,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({ onExplore }) => {
         </h1>
 
         <p className="text-xs sm:text-lg md:text-xl lg:text-2xl text-white/80 max-w-2xl mx-auto font-light mb-10 md:mb-14 leading-relaxed fade-in px-4" style={{ animationDelay: '0.5s' }}>
-          Sourcing the Earth's finest masterpieces for the world's most distinguished estates. Amazon Marble Centre curates
+          Sourcing the Earth's finest masterpieces for the world's most distinguished estates. JS Tiles Emporium curates
           the foundation of your legacy.
         </p>
 

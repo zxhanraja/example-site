@@ -4,7 +4,7 @@ const testimonials = [
     {
         name: "Arjun Singhania",
         role: "Property Developer, Mumbai",
-        quote: "Amazon Marble Centre transformed our flagship residential project. Their Calacatta slabs are unparalleled in purity and veining. A truly flawless experience.",
+        quote: "JS Tiles Emporium transformed our flagship residential project. Their Calacatta slabs are unparalleled in purity and veining. A truly flawless experience.",
         image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200&h=200"
     },
     {

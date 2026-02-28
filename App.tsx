@@ -11,6 +11,7 @@ import DetailedContent from './components/DetailedContent';
 import LoadingScreen from './components/LoadingScreen';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
+import Chatbot from './components/Chatbot';
 
 export type ViewState = 'home' | 'privacy' | 'accessibility' | 'terms' | 'heritage' | 'archive' | 'showroom' | 'consultation' | 'projects_detailed';
 
@@ -43,6 +44,7 @@ const App: React.FC = () => {
         <Header isScrolled={true} onNavigate={navigateTo} />
         <DetailedContent type={currentView} onBack={() => navigateTo('home')} />
         <Footer onNavigate={navigateTo} />
+        <Chatbot />
       </div>
     );
   }
@@ -91,6 +93,7 @@ const App: React.FC = () => {
       </main>
 
       <Footer onNavigate={navigateTo} />
+      <Chatbot />
 
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
