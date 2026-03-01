@@ -33,8 +33,8 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, onNavigate }) => {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 px-4 md:px-12 lg:px-16 py-3 md:py-6 ${isScrolled
-          ? 'bg-white/95 backdrop-blur-md border-b border-regal-gold/10 shadow-sm'
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ease-in-out px-4 md:px-12 lg:px-16 py-3 md:py-6 ${isScrolled
+          ? 'bg-white/70 backdrop-blur-lg border-b border-regal-gold/20 shadow-md'
           : 'bg-transparent'
           }`}
       >
@@ -55,10 +55,11 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, onNavigate }) => {
               <button
                 key={link.name}
                 onClick={() => handleLinkClick(link.view)}
-                className={`text-[9px] uppercase tracking-[0.3em] font-semibold transition-all duration-300 hover:text-regal-gold border-b border-transparent hover:border-regal-gold/50 pb-1 ${isScrolled ? 'text-charcoal/80' : 'text-white/90'
+                className={`relative group text-[9px] uppercase tracking-[0.3em] font-semibold transition-colors duration-300 hover:text-regal-gold py-1 ${isScrolled ? 'text-charcoal/80' : 'text-white/90'
                   }`}
               >
                 {link.name}
+                <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-regal-gold transition-all duration-300 ease-out group-hover:w-full"></span>
               </button>
             ))}
           </nav>
@@ -89,7 +90,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, onNavigate }) => {
       </header>
 
       {/* Fullscreen Mobile Menu Drawer */}
-      <div className={`fixed inset-0 z-[80] bg-charcoal transition-all duration-500 ease-in-out lg:hidden ${isMenuOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
+      <div className={`fixed inset-0 z-[80] bg-charcoal transition-transform duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] lg:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}>
         {/* Close Button Inside Drawer */}
         <button
@@ -113,17 +114,18 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, onNavigate }) => {
               <button
                 key={link.name}
                 onClick={() => handleLinkClick(link.view)}
-                className="text-white text-left text-4xl md:text-5xl font-serif italic hover:text-regal-gold transition-all duration-400 transform hover:translate-x-3 flex items-center group"
-                style={{ transitionDelay: `${idx * 50}ms` }}
+                className={`text-white text-left text-4xl md:text-5xl font-serif italic hover:text-regal-gold transition-all duration-500 flex items-center group ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
+                style={{ transitionDelay: isMenuOpen ? `${300 + idx * 100}ms` : '0ms' }}
               >
-                {link.name}
+                <span className="transform transition-transform duration-400 group-hover:translate-x-3">{link.name}</span>
               </button>
             ))}
             <button
               onClick={() => handleLinkClick('home')}
-              className="text-white text-left text-4xl md:text-5xl font-serif italic hover:text-regal-gold transition-all duration-400 transform hover:translate-x-3 flex items-center group pt-4 border-t border-white/5"
+              className={`text-white text-left text-4xl md:text-5xl font-serif italic hover:text-regal-gold transition-all duration-500 flex items-center group pt-4 border-t border-white/5 ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
+              style={{ transitionDelay: isMenuOpen ? `${300 + navLinks.length * 100}ms` : '0ms' }}
             >
-              Back to Home
+              <span className="transform transition-transform duration-400 group-hover:translate-x-3">Back to Home</span>
             </button>
           </div>
 
