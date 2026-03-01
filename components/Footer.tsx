@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               onClick={() => onNavigate('home')}
               className="text-2xl md:text-3xl font-serif mb-6 italic text-left group flex flex-col items-start leading-none"
             >
-              <span className="font-semibold">JS Tiles</span>
+              <span className="font-semibold">CHOWDHURY MARBLE</span>
               <span className="text-[9px] uppercase tracking-[0.6em] mt-1 text-regal-gold font-bold">Emporium</span>
             </button>
             <p className="text-white/40 font-light text-sm md:text-base leading-relaxed mb-8 max-w-sm">
@@ -75,7 +75,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </div>
             <div>
               <span className="block text-[9px] uppercase tracking-widest text-white/30 mb-2 font-bold">Direct Line</span>
-              <p className="text-lg font-serif italic text-white md:text-xl">07004745766</p>
+              <p className="text-lg font-serif italic text-white md:text-xl">07439390399</p>
             </div>
           </div>
         </div>
@@ -83,11 +83,11 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         {/* Sub-footer */}
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-white/5 pt-8">
           <p className="text-[9px] uppercase tracking-[0.3em] text-white/20 mb-4 md:mb-0">
-            © {currentYear} JS Tiles Emporium. All Rights Reserved.
+            © {currentYear} CHOWDHURY MARBLE. All Rights Reserved.
           </p>
           <div className="flex flex-wrap items-center space-x-2 md:space-x-6 text-[9px] uppercase tracking-[0.3em] text-white/20 font-bold mt-4 md:mt-0">
             <span className="w-1.5 h-1.5 bg-regal-gold rounded-full animate-pulse-soft hidden md:inline-block"></span>
-            <span className="text-center md:text-left">489, Grand Trunk Rd, Mahesh, Mahesh Bose Para, Serampore, Kolkata, West Bengal 712202</span>
+            <span className="text-center md:text-left">Grand Trunk Rd, Kantapukur, Mogra, Alikhoja, West Bengal 712148</span>
           </div>
         </div>
       </div>

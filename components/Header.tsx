@@ -44,7 +44,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, onNavigate }) => {
             className={`text-left text-lg md:text-2xl font-serif tracking-tighter transition-all duration-500 flex flex-col items-start leading-none group relative z-20 ${isScrolled ? 'text-charcoal' : 'text-white'
               }`}
           >
-            <span className="font-semibold italic group-hover:text-regal-gold transition-colors block md:inline">JS Tiles</span>
+            <span className="font-semibold italic group-hover:text-regal-gold transition-colors block md:inline">CHOWDHURY MARBLE</span>
             <span className={`text-[6px] md:text-[8px] uppercase tracking-[0.4em] md:tracking-[0.6em] ml-0 md:ml-1 mt-1 block md:inline font-medium ${isScrolled ? 'text-regal-gold' : 'text-champagne'}`}>
               Emporium
             </span>
@@ -133,7 +133,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, onNavigate }) => {
             <div>
               <p className="text-regal-gold text-[8px] uppercase tracking-widest mb-3 font-bold">Concierge Service</p>
               <p className="text-white/60 text-base font-serif italic">West Bengal Showroom</p>
-              <p className="text-white/40 text-xs mt-1">07004745766</p>
+              <p className="text-white/40 text-xs mt-1">07439390399</p>
             </div>
             <div className="mt-8 md:mt-0 flex space-x-6">
               <a href="#" className="text-white/40 hover:text-regal-gold transition-colors text-[9px] uppercase tracking-widest font-bold">Instagram</a>

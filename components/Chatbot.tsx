@@ -8,7 +8,7 @@ interface Message {
 const Chatbot: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState<Message[]>([
-        { role: 'model', text: 'Welcome to JS Tiles Emporium. How may I assist you with our luxury stone collections today?' }
+        { role: 'model', text: 'Welcome to CHOWDHURY MARBLE. How may I assist you with our luxury stone collections today?' }
     ]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -39,7 +39,7 @@ const Chatbot: React.FC = () => {
             const systemInstruction = {
                 role: "user",
                 parts: [{
-                    text: "You are an elite, highly professional concierge for 'JS Tiles Emporium', a luxury natural stone and marble brand based at 489, Grand Trunk Rd, Mahesh, Mahesh Bose Para, Serampore, Kolkata, West Bengal 712202. Direct contact: 07004745766. You provide instant, polite, and extremely concise replies. You assist architects, designers, and distinguished clients with inquiries about premium marble, tiles, and bespoke sourcing. Never break character. Be exceptionally courteous."
+                    text: "You are an elite, highly professional concierge for 'CHOWDHURY MARBLE', a luxury natural stone and marble brand based at Grand Trunk Rd, Kantapukur, Mogra, Alikhoja, West Bengal 712148. Direct contact: 07439390399. You provide instant, polite, and extremely concise replies. You assist architects, designers, and distinguished clients with inquiries about premium marble, tiles, and bespoke sourcing. Never break character. Be exceptionally courteous."
                 }]
             };
 
@@ -81,7 +81,7 @@ const Chatbot: React.FC = () => {
 
         } catch (error) {
             console.error('Chatbot error:', error);
-            setMessages((prev) => [...prev, { role: 'model', text: 'I apologize, but I am currently unable to process your request. Please call us directly at 07004745766.' }]);
+            setMessages((prev) => [...prev, { role: 'model', text: 'I apologize, but I am currently unable to process your request. Please call us directly at 07439390399.' }]);
         } finally {
             setIsLoading(false);
         }
@@ -121,7 +121,7 @@ const Chatbot: React.FC = () => {
                 {/* Header */}
                 <div className="bg-charcoal text-white p-5 rounded-t-sm flex items-center justify-between border-b border-regal-gold/20">
                     <div>
-                        <h3 className="font-serif italic text-lg text-regal-gold">JS Tiles Concierge</h3>
+                        <h3 className="font-serif italic text-lg text-regal-gold">CHOWDHURY MARBLE Concierge</h3>
                         <p className="text-[9px] uppercase tracking-widest text-white/50">Always Online</p>
                     </div>
                     <button onClick={() => setIsOpen(false)} className="text-white/50 hover:text-white transition-colors">
