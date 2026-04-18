@@ -29,14 +29,14 @@ const DetailedContent: React.FC<DetailedContentProps> = ({ type, onBack }) => {
       case 'heritage':
         return (
           <div className="fade-in">
-            <h1 className="text-4xl md:text-7xl font-serif italic text-charcoal mb-12">The KGN MARBLE HOUSE Dynasty</h1>
+            <h1 className="text-4xl md:text-7xl font-serif italic text-charcoal mb-12">The J S Tiles Emporium Dynasty</h1>
             <div className="space-y-12 text-charcoal/70 font-light leading-loose text-base md:text-lg max-w-4xl">
               <div className="aspect-[21/9] overflow-hidden rounded-sm bg-marble-gray mb-12">
-                <img src="https://images.unsplash.com/photo-1542332213-31f87348057f?auto=format&fit=crop&q=80&w=1600" className="w-full h-full object-cover" alt="Quarry Heritage" onLoad={(e) => (e.target as HTMLImageElement).classList.add('loaded')} />
+                <img src="https://images.unsplash.com/photo-1542332213-31f87348057f?auto=format&fit=crop&q=80&w=1600" className="w-full h-full object-cover" alt="Elite marble quarry illustrating the heritage and sourcing excellence of J S Tiles Emporium" onLoad={(e) => (e.target as HTMLImageElement).classList.add('loaded')} />
               </div>
               <section>
                 <h2 className="text-regal-gold text-xs uppercase tracking-[0.5em] font-bold mb-6">Established 1992</h2>
-                <p>Born in the quarries of Carrara, KGN MARBLE HOUSE was established to unite ancient geological mastery with modern architectural vision. Our foundation is built on decades of trust with heritage quarry owners.</p>
+                <p>Born in the quarries of Carrara, J S Tiles Emporium was established to unite ancient geological mastery with modern architectural vision. Our foundation is built on decades of trust with heritage quarry owners.</p>
               </section>
               <section>
                 <h2 className="text-regal-gold text-xs uppercase tracking-[0.5em] font-bold mb-6">Global Curation</h2>
@@ -86,10 +86,10 @@ const DetailedContent: React.FC<DetailedContentProps> = ({ type, onBack }) => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
                   <h2 className="text-regal-gold text-xs uppercase tracking-[0.5em] font-bold mb-6">Physical Experience</h2>
-                  <p>Visit our flagship Rajasthan and West Bengal locations for a tactile experience of our rarest stones. We offer private viewing rooms for design teams to curate whole-project palettes.</p>
+                  <p>Visit our flagship Rajasthan and Serampore locations for a tactile experience of our rarest stones. We offer private viewing rooms for design teams to curate whole-project palettes.</p>
                 </div>
                 <div className="order-1 lg:order-2 aspect-[4/3] rounded-sm overflow-hidden bg-marble-gray">
-                  <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200" className="w-full h-full object-cover" alt="Showroom" onLoad={(e) => (e.target as HTMLImageElement).classList.add('loaded')} />
+                  <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200" className="w-full h-full object-cover" alt="Luxury showroom interior featuring premium J S Tiles Emporium collections" onLoad={(e) => (e.target as HTMLImageElement).classList.add('loaded')} />
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ const DetailedContent: React.FC<DetailedContentProps> = ({ type, onBack }) => {
             <div className="space-y-20">
               {[
                 { title: "The Royal Rajasthan Palace", loc: "Rajasthan", img: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1200" },
-                { title: "Kolkata Luxury Villa", loc: "West Bengal", img: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1200" }
+                { title: "Serampore Luxury Villa", loc: "Serampore", img: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&q=80&w=1200" }
               ].map((p, i) => (
                 <section key={i} className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center border-b border-charcoal/5 pb-20 last:border-0">
                   <div className="aspect-video rounded-sm overflow-hidden bg-marble-gray">
@@ -174,7 +174,7 @@ const DetailedContent: React.FC<DetailedContentProps> = ({ type, onBack }) => {
               </section>
               <section>
                 <h2 className="text-regal-gold text-[10px] uppercase tracking-widest font-bold mb-4">Showroom Access</h2>
-                <p>All KGN MARBLE HOUSE showrooms are fully wheelchair accessible with personal concierge assistance available on-site.</p>
+                <p>All J S Tiles Emporium showrooms are fully wheelchair accessible with personal concierge assistance available on-site.</p>
               </section>
             </div>
           </div>

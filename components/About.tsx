@@ -33,7 +33,7 @@ const About: React.FC<AboutProps> = ({ onReadMore }) => {
           <div className="relative z-10 aspect-[4/5] overflow-hidden rounded-sm shadow-2xl">
             <img
               src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=60&w=1000"
-              alt="The KGN MARBLE HOUSE Legacy"
+              alt="The J S Tiles Emporium Legacy"
               loading="lazy"
               className="w-full aspect-[4/5] lg:aspect-[3/4] object-cover transition-transform duration-1000 group-hover:scale-105"
             />
@@ -51,9 +51,9 @@ const About: React.FC<AboutProps> = ({ onReadMore }) => {
             <span className="italic">Nature's Art,</span> <br className="hidden sm:block" /> Masterfully Sourced.
           </h2>
           <p className="text-charcoal/60 font-light text-sm md:text-lg mb-8 md:mb-10 leading-relaxed max-w-xl mx-auto lg:mx-0">
-            For three decades, KGN MARBLE HOUSE has remained the silent partner behind the world’s
+            For three decades, J S Tiles Emporium has remained the silent partner behind the world’s
             most iconic interiors. From majestic palace foyers in Rajasthan to avant-garde penthouses in
-            Mumbai and West Bengal, our seal guarantees uncompromised flawlessness.
+            Mumbai and Serampore, our seal guarantees uncompromised flawlessness.
           </p>
           <div className="py-8 border-y border-charcoal/5">
             <p className="italic text-charcoal font-medium text-lg md:text-2xl leading-snug">

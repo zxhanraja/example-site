@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const faqs = [
     {
         question: "Do you supply material globally?",
-        answer: "Yes, KGN MARBLE HOUSE coordinates secure, international shipping for our curated slabs directly to your project site, ensuring the material arrives in pristine condition."
+        answer: "Yes, J S Tiles Emporium coordinates secure, international shipping for our curated slabs directly to your project site, ensuring the material arrives in pristine condition."
     },
     {
         question: "Can I view the slabs before purchasing?",
